@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46418725224DA9AA0020A556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46418724224DA9AA0020A556 /* AppDelegate.swift */; };
+		46418727224DA9AA0020A556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46418726224DA9AA0020A556 /* ViewController.swift */; };
+		4641872A224DA9AA0020A556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46418728224DA9AA0020A556 /* Main.storyboard */; };
+		4641872C224DA9AB0020A556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4641872B224DA9AB0020A556 /* Assets.xcassets */; };
+		4641872F224DA9AB0020A556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4641872D224DA9AB0020A556 /* LaunchScreen.storyboard */; };
+		4641873A224DA9AB0020A556 /* nutriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46418739224DA9AB0020A556 /* nutriaTests.swift */; };
+		46418745224DA9AB0020A556 /* nutriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46418744224DA9AB0020A556 /* nutriaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46418736224DA9AB0020A556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46418719224DA9AA0020A556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46418720224DA9AA0020A556;
+			remoteInfo = nutria;
+		};
+		46418741224DA9AB0020A556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46418719224DA9AA0020A556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46418720224DA9AA0020A556;
+			remoteInfo = nutria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46418721224DA9AA0020A556 /* nutria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nutria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46418724224DA9AA0020A556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46418726224DA9AA0020A556 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46418729224DA9AA0020A556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4641872B224DA9AB0020A556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4641872E224DA9AB0020A556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46418730224DA9AB0020A556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46418735224DA9AB0020A556 /* nutriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nutriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46418739224DA9AB0020A556 /* nutriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriaTests.swift; sourceTree = "<group>"; };
+		4641873B224DA9AB0020A556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46418740224DA9AB0020A556 /* nutriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nutriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46418744224DA9AB0020A556 /* nutriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriaUITests.swift; sourceTree = "<group>"; };
+		46418746224DA9AB0020A556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4641871E224DA9AA0020A556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46418732224DA9AB0020A556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4641873D224DA9AB0020A556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46418718224DA9AA0020A556 = {
+			isa = PBXGroup;
+			children = (
+				46418723224DA9AA0020A556 /* nutria */,
+				46418738224DA9AB0020A556 /* nutriaTests */,
+				46418743224DA9AB0020A556 /* nutriaUITests */,
+				46418722224DA9AA0020A556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46418722224DA9AA0020A556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46418721224DA9AA0020A556 /* nutria.app */,
+				46418735224DA9AB0020A556 /* nutriaTests.xctest */,
+				46418740224DA9AB0020A556 /* nutriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46418723224DA9AA0020A556 /* nutria */ = {
+			isa = PBXGroup;
+			children = (
+				46418724224DA9AA0020A556 /* AppDelegate.swift */,
+				46418726224DA9AA0020A556 /* ViewController.swift */,
+				46418728224DA9AA0020A556 /* Main.storyboard */,
+				4641872B224DA9AB0020A556 /* Assets.xcassets */,
+				4641872D224DA9AB0020A556 /* LaunchScreen.storyboard */,
+				46418730224DA9AB0020A556 /* Info.plist */,
+			);
+			path = nutria;
+			sourceTree = "<group>";
+		};
+		46418738224DA9AB0020A556 /* nutriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				46418739224DA9AB0020A556 /* nutriaTests.swift */,
+				4641873B224DA9AB0020A556 /* Info.plist */,
+			);
+			path = nutriaTests;
+			sourceTree = "<group>";
+		};
+		46418743224DA9AB0020A556 /* nutriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46418744224DA9AB0020A556 /* nutriaUITests.swift */,
+				46418746224DA9AB0020A556 /* Info.plist */,
+			);
+			path = nutriaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46418720224DA9AA0020A556 /* nutria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46418749224DA9AB0020A556 /* Build configuration list for PBXNativeTarget "nutria" */;
+			buildPhases = (
+				4641871D224DA9AA0020A556 /* Sources */,
+				4641871E224DA9AA0020A556 /* Frameworks */,
+				4641871F224DA9AA0020A556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nutria;
+			productName = nutria;
+			productReference = 46418721224DA9AA0020A556 /* nutria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46418734224DA9AB0020A556 /* nutriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4641874C224DA9AB0020A556 /* Build configuration list for PBXNativeTarget "nutriaTests" */;
+			buildPhases = (
+				46418731224DA9AB0020A556 /* Sources */,
+				46418732224DA9AB0020A556 /* Frameworks */,
+				46418733224DA9AB0020A556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46418737224DA9AB0020A556 /* PBXTargetDependency */,
+			);
+			name = nutriaTests;
+			productName = nutriaTests;
+			productReference = 46418735224DA9AB0020A556 /* nutriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4641873F224DA9AB0020A556 /* nutriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4641874F224DA9AB0020A556 /* Build configuration list for PBXNativeTarget "nutriaUITests" */;
+			buildPhases = (
+				4641873C224DA9AB0020A556 /* Sources */,
+				4641873D224DA9AB0020A556 /* Frameworks */,
+				4641873E224DA9AB0020A556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46418742224DA9AB0020A556 /* PBXTargetDependency */,
+			);
+			name = nutriaUITests;
+			productName = nutriaUITests;
+			productReference = 46418740224DA9AB0020A556 /* nutriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46418719224DA9AA0020A556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = JM;
+				TargetAttributes = {
+					46418720224DA9AA0020A556 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					46418734224DA9AB0020A556 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 46418720224DA9AA0020A556;
+					};
+					4641873F224DA9AB0020A556 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 46418720224DA9AA0020A556;
+					};
+				};
+			};
+			buildConfigurationList = 4641871C224DA9AA0020A556 /* Build configuration list for PBXProject "nutria" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46418718224DA9AA0020A556;
+			productRefGroup = 46418722224DA9AA0020A556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46418720224DA9AA0020A556 /* nutria */,
+				46418734224DA9AB0020A556 /* nutriaTests */,
+				4641873F224DA9AB0020A556 /* nutriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4641871F224DA9AA0020A556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4641872F224DA9AB0020A556 /* LaunchScreen.storyboard in Resources */,
+				4641872C224DA9AB0020A556 /* Assets.xcassets in Resources */,
+				4641872A224DA9AA0020A556 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46418733224DA9AB0020A556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4641873E224DA9AB0020A556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4641871D224DA9AA0020A556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46418727224DA9AA0020A556 /* ViewController.swift in Sources */,
+				46418725224DA9AA0020A556 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46418731224DA9AB0020A556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4641873A224DA9AB0020A556 /* nutriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4641873C224DA9AB0020A556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46418745224DA9AB0020A556 /* nutriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46418737224DA9AB0020A556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46418720224DA9AA0020A556 /* nutria */;
+			targetProxy = 46418736224DA9AB0020A556 /* PBXContainerItemProxy */;
+		};
+		46418742224DA9AB0020A556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46418720224DA9AA0020A556 /* nutria */;
+			targetProxy = 46418741224DA9AB0020A556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46418728224DA9AA0020A556 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46418729224DA9AA0020A556 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4641872D224DA9AB0020A556 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4641872E224DA9AB0020A556 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46418747224DA9AB0020A556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46418748224DA9AB0020A556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4641874A224DA9AB0020A556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7PSD26BVN;
+				INFOPLIST_FILE = nutria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JM.nutria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4641874B224DA9AB0020A556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7PSD26BVN;
+				INFOPLIST_FILE = nutria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JM.nutria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4641874D224DA9AB0020A556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7PSD26BVN;
+				INFOPLIST_FILE = nutriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JM.nutriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nutria.app/nutria";
+			};
+			name = Debug;
+		};
+		4641874E224DA9AB0020A556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7PSD26BVN;
+				INFOPLIST_FILE = nutriaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JM.nutriaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nutria.app/nutria";
+			};
+			name = Release;
+		};
+		46418750224DA9AB0020A556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7PSD26BVN;
+				INFOPLIST_FILE = nutriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JM.nutriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nutria;
+			};
+			name = Debug;
+		};
+		46418751224DA9AB0020A556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7PSD26BVN;
+				INFOPLIST_FILE = nutriaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JM.nutriaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nutria;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4641871C224DA9AA0020A556 /* Build configuration list for PBXProject "nutria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46418747224DA9AB0020A556 /* Debug */,
+				46418748224DA9AB0020A556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46418749224DA9AB0020A556 /* Build configuration list for PBXNativeTarget "nutria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4641874A224DA9AB0020A556 /* Debug */,
+				4641874B224DA9AB0020A556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4641874C224DA9AB0020A556 /* Build configuration list for PBXNativeTarget "nutriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4641874D224DA9AB0020A556 /* Debug */,
+				4641874E224DA9AB0020A556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4641874F224DA9AB0020A556 /* Build configuration list for PBXNativeTarget "nutriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46418750224DA9AB0020A556 /* Debug */,
+				46418751224DA9AB0020A556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46418719224DA9AA0020A556 /* Project object */;
+}
